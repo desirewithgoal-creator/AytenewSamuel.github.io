@@ -1,0 +1,14 @@
+/src
+  /app
+    /api/contact       # Serverless function for form handling
+    /layout.tsx        # Global fonts and metadata
+    /page.tsx          # Home page
+  /components
+    /ui                # Reusable shadcn/ui components (Button, Input)
+    /sections          # Hero, About, Services, Portfolio, Contact
+  /lib
+    /db.ts             # Database connection (PostgreSQL/Prisma)
+    /metadata.ts       # SEO config
+  /styles
+    /globals.css
+  /public              # Images/Icons
